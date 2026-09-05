@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Find Phone</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>Find Phone</h1>
+
+    <p class="subtitle">
+      دستگاهت را با کد مخصوص پیدا و متصل کن
+    </p>
+
+    <section class="card">
+
+      <h2>کد دستگاه من</h2>
+
+      <div id="myId" class="my-id">
+        در حال اتصال...
+      </div>
+
+      <p id="status" class="status">
+        در حال اتصال به سرور...
+      </p>
+
+    </section>
+
+    <section class="card">
+
+      <h2>اتصال به دستگاه دیگر</h2>
+
+      <input
+        id="targetId"
+        type="text"
+        maxlength="6"
+        placeholder="کد دستگاه را وارد کن"
+        autocomplete="off"
+      >
+
+      <button id="connectBtn">
+        اتصال
+      </button>
+
+    </section>
+
+    <section id="connectionBox" class="card hidden">
+
+      <h2>وضعیت اتصال</h2>
+
+      <p id="connectionStatus">
+        هنوز متصل نشده‌ایم
+      </p>
+
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
