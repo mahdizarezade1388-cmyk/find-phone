@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+  color: #222;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(90%, 500px);
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.my-id {
+  background: #f0f2f5;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.status {
+  text-align: center;
+  margin-top: 14px;
+  color: #777;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.hidden {
+  display: none;
+}
+
+#connectionStatus {
+  text-align: center;
+  color: #666;
+}
